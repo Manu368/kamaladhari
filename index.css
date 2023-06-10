@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* TopSection CSS Start*/
+
+.icon01 {
+    font-size: 16px !important;
+    text-align: center;
+}
+.icon02 {
+    font-size: 16px !important;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.top-bar {
+    border-bottom: 1px solid #fff;
+}
+
+.bg-container01 {
+    background-color: #5a5c5c;
+    background-size: cover;
+}
+.manu-color{
+    color:#fff;
+}
+/* TopSection CSS End*/
+
+
+/* Navbar CSS Strat*/
+.manohar01{
+    background-image: linear-gradient(to right, #9392d1, #95a0ab);
+}
+.button01{
+    background-color: transparent;
+    border: 2px solid #f7bd1e;
+    color:#f7bd1e;
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    animation: zoomIn;
+
+}
+#act, #cur, #per, #pre, #pub, #tea{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#act:hover, #cur:hover, #per:hover, #pre:hover, #pub:hover, #tea:hover{
+    color:#f7bd1e;
+    border-bottom:  1px solid #f7bd1e;
+
+}
+.button01:hover{
+    background-image: linear-gradient(to right,#8ee8dc, #789ec4);
+    color:#fff;
+    border:0px;
+
+}
+@keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .button01 {
+    animation: zoomIn 4s; 
+  }
+.logo01{
+    height: 70px;
+    width: 70px;
+}
+
+.name{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+.prof{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -18px;
+
+}
+/* Navabr CSS End*/
+
+/* Section01 CSS Start*/
+.bg-container02{
+    background-image: linear-gradient(to top, #373a3d, rgba(35, 29, 29, 0.2)),url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1686334760/Background_image_kwww3d.jpg");
+    background-size: cover;
+}
+.heading01{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.profession{
+    background-color: #eb8e15;
+    color:#fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.span01{
+    background-color: #fff;
+    color:#eb8e15;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.para01{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box-container{
+    border: 4px solid #eb8e15;
+    width: 700px;
+    margin-top: 100px;
+    padding-right: 120px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color:rgba(250,250,250,1);
+    font-weight: 500;
+    z-index: 10;
+}
+.heading02{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+@media screen and (max-width: 1000px) and (min-width:768px){
+    .box-container{
+        border: 4px solid #eb8e15;
+        width: 400px;
+        margin-top: 100px;
+        padding-right: 120px;
+        padding-left: 10px;
+        padding-top: 15px;
+        color:rgba(250,250,250,1);
+        font-weight: 500;
+        z-index: 0;
+    }
+    .box-container02{
+        background-color: #fff;
+        border-radius: 4px;
+        margin-top: 170px;
+        height: 120px;
+        margin-left: -50px;
+        z-index: 10;
+        padding: 15px 35px 15px 15px;
+    }
+}
+
+@media screen and (min-width:1001px) {
+    
+.box-container02{
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 140px;
+    height: 120px;
+    margin-left: -80px;
+    z-index: 10;
+    padding: 15px 35px 15px 15px;
+}
+}
+.telephone{
+    color:#3b4b5c;
+    font-size: 30px;
+}
+.icon03{
+    font-size: 25px;
+}
+.email {
+    font-size: 19px;
+    color:#3b4b5c;
+    font-weight: 500;
+}
+@media screen and (max-width:767px){
+    .box-container{
+        border: 4px solid #eb8e15;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-top: 15px;
+        color:rgba(250,250,250,1);
+        font-weight: 500;
+        z-index: 0;
+    }
+    .box-container02{
+        background-color: #fff;
+        border-radius: 4px;
+        margin-top: 350px;
+        height: 120px;
+        margin-left: -50px;
+        z-index: 10;
+        padding: 15px 35px 30px 15px;
+    }
+}
+@media screen and (max-width:512px){
+    .box-container02{
+        background-color: #fff;
+        border-radius: 4px;
+        margin-top: 350px;
+        height: 120px;
+        margin-left: -120px;
+        z-index: 10;
+        padding: 15px 35px 30px 15px;
+    }
+}
+/* Section01 CSS End*/
+
+
+
+/* Section02 CSS Start*/
+
+.heading03{
+    color:#3b4b5c;
+    font-size: 30px;
+    font-weight: 700;
+}
+.lawyer{
+    font-size: 28px;
+}
+.desc{
+    color: #3b4b5c;
+    font-size: 16px;
+}
+.span02{
+    color: #3b4b5c;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-manu{
+    border: 1px solid #eb8e15 !important; 
+    border-radius: 0px !important;
+    padding: 10px !important;
+}
+.image02{
+    width: 100%;
+    height: 95%;
+    border: 2px solid #eb8e15;
+}
+.image03{
+    position: relative;
+    z-index: 10;
+    top: -30%;
+    left: 15px;
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .image03{
+        position: relative;
+        z-index: 10;
+        top: -35%;
+        left: 10px;
+        width: 50px;
+    }
+}
+.mini-container{
+    background-color: #000;
+    opacity: 0.7;
+    border: 1px solid #fff;
+    z-index: 10;
+    padding:5px;
+    top: 40%;
+    position: absolute;
+    width:80%;
+}
+.heading04{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+@media screen and (max-width:992px) and (min-width:768px){
+    .mini-container{
+        background-color: #000;
+        opacity: 0.7;
+        border: 1px solid #fff;
+        z-index: 10;
+        padding:5px;
+        top: 25%;
+        position: absolute;
+        width:75%;
+    }
+}
+.para03{
+    color:#3b4b5c;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 2px dashed #3b4b5c;
+}
+.icon04{
+    font-size: 14px;
+}
+
+/* Section02 CSS End*/
+
+
+
+/* Section03 CSS Start*/
+.bg-container04{
+    background-image: linear-gradient(to top, #373a3d, rgba(35, 29, 29, 0.5)),url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1686345335/CTA_swrgty.jpg");
+    background-size: cover;
+
+}
+.heading05{
+    color:#fff;
+    font-weight: 700;
+}
+.image04{
+    width: 32px;
+    height: 30px;
+    margin-top: 58px;
+}
+.icon05{
+    color:#f7bd1e;
+}
+.list01{
+    color:#fff;
+    font-weight: 500;
+    margin-top: 42px;
+    font-size: 16px;
+}
+@media screen and (min-width:768px) {
+    .mini-container02{
+        background-image: linear-gradient(to bottom,#de942c,#cc8c0c);
+        padding: 15px;
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+.tel{
+    color: #fff;
+    font-size: 22px;
+
+}
+.icon003{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+.email01 {
+    font-size: 19px;
+    color:#fff;
+    font-weight: 500;
+    
+}
+@media screen and (max-width:767px) {
+    .mini-container02{
+        background-image: linear-gradient(to bottom,#de942c,#cc8c0c);
+        padding: 15px;
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+.image05{
+    width: 32px;
+    height: 30px;
+}
+.para04{
+    color:#000;
+    opacity: 0.6;
+    font-size: 16px;
+}
+.heading06{
+    color:#eb8e15;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.numeric{
+    color:#d1ccc0;
+    font-size: 105px;
+    margin-top: 50px;
+}
+.final-card{
+    box-shadow: 1px 1px 1px;
+    padding: 5px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.final-card:hover{
+    background-color: #c9f0e4;
+    transform: scale(1.1);
+}
+.person01{
+    width: 100%;
+}
+
+/* Section03 CSS End*/
+
+
+/* Section04 CSS Start*/
+
+.bg-container05{
+    background-image: linear-gradient(to right, #373a3d, rgba(240, 232, 232, 0.1)), url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1686356234/CTA2_hkmmkg.jpg");
+    background-size: cover;
+
+    
+}
+.heading003{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.image06{
+    width: 32px;
+    height: 30px;
+}
+.finaldesc{
+    color: #fff;
+    font-size: 16px;
+}
+.last01{
+    color:#eb8e15;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Section04 CSS End*/
+
+
+/* Section05 CSS Start*/
+.bg-container06{
+    background-color: #70756d;
+    background-size: cover;
+
+}
+.logo001{
+    height: 72px;
+}
+.name01{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+.prof01{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: -18px;
+
+}
+.icon55{
+    font-size: 26px;
+    margin-top: 25px;
+    color:#c8dcd9;
+}
+/* Section05 CSS End*/
+
+
+/* Section06 CSS Start*/
+.bg-container07{
+    background-color: #a7a8a7;
+    background-size: cover;
+}
+.copyright{
+    color: #fff;
+    font-size: 14px;
+}
+.f1{
+    font-size: 14px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+.icon55:hover{
+    color:#789ec4;
+    cursor: pointer;
+}
+.map01{
+    width: 100%;
+}
+.f1:hover{
+    color:#10e8d2;
+    cursor: pointer;
+}
+
+/* Section06 CSS End*/
